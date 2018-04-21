@@ -1,0 +1,160 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+//default color
+$black:#000;
+$white:#ffff;
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+//responsive iamge
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+  line-height: 0px;
+}
+
+//float-left
+.left {
+  float: left;
+}
+
+//float-right
+.fight {
+  float: right;
+}
+
+//display flex
+.d-flex {
+  display: flex;
+}
+
+//flex-center
+.f-center {
+  justify-content: center;
+  align-items: center;
+}
+
+//flex-direction-row
+.flex-d-row {
+  flex-direction: row;
+}
+
+//flex-direction column
+.flex-d-col {
+  flex-direction: column;
+}
+
+//cointaiter width
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+// two item one half
+.half {
+  float: left;
+  width: 50%;
+}
+
+//button default
+.btn {
+  border: none;
+  outline: none;
+  background: $black;
+  border-radius: 3px;
+  padding: 15px 30px;
+  color: $white;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+//clarfix
+.clear {
+  clear: both;
+}
+
+//text-center
+.text-center {
+  text-align: center;
+}
+
+.d-none {
+  display: none;
+}
+
+.loan {
+  width: 600px;
+  margin: 0 auto;
+  background: #64B5F6;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.loan__header {
+  h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin: 0px;
+    padding-bottom: 30px;
+  }
+}
+
+.form-group {
+  padding: 8px 0px;
+  label {
+    text-align: left;
+    font-size: 17px;
+    color: #fff;
+    font-weight: bold;
+    width: 177px;
+    display: inline-block;
+  }
+  input {
+    padding: 6px;
+    border: none;
+  }
+}
+
+.loan__body {
+  button {
+    margin-top: 30px;
+    background: #2196F3;
+  }
+}
+
+.loan__loader {
+  margin-top: 30px;
+  display: none;
+  i {
+    font-size: 120px;
+    color: #ffffff;
+  }
+}
+
+.danger {
+  width: 380px;
+  margin: 0 auto;
+  margin-bottom: 24px;
+  background: #EC407A;
+  padding: 10px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.loan__result {
+  margin-top: 30px;
+  display: none;
+}
+
+@import "responsive";
